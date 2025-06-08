@@ -17,16 +17,6 @@ jobs:
             target: rockchip
             subtarget: armv8
             vermagic: "0919bf77bd78281b8293e21504faecfb"
-          - tag: "23.05.5"
-            pkgarch: aarch64_generic
-            target: rockchip
-            subtarget: armv8
-            vermagic: "0919bf77bd78281b8293e21504faecfb"
-          - tag: "23.05.5"
-            pkgarch: aarch64_generic
-            target: rockchip
-            subtarget: armv8
-            vermagic: "0919bf77bd78281b8293e21504faecfb"
 
     steps:
       - uses: actions/checkout@v4
