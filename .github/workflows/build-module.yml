@@ -12,11 +12,11 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "23.05.5"
+          - tag: "24.10.1"
             pkgarch: aarch64_generic
             target: rockchip
             subtarget: armv8
-            vermagic: "0919bf77bd78281b8293e21504faecfb"
+            vermagic: "a8e18e0ecc66cc99303d258424ec0db8-r1"
 
     steps:
       - uses: actions/checkout@v4
